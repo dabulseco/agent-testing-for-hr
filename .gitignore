@@ -1,0 +1,19 @@
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Secrets / local config
+config.json
+.env
+.env.*
+.streamlit/secrets.toml
+
+# Redundant or superseded files
+*.zip
+*.openai-backup.ipynb
